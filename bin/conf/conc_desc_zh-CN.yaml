@@ -1,0 +1,22 @@
+err_not_sufficient_arg: "未提供充足参数"
+
+inf_try_conc_help: "请键入conc --help以获取帮助"
+
+conc_description: "conc® 数据传输解决方案"
+
+conc_usage_txt_macos: "开启一个服务器新实例，例如：\n      conc sv 192.168.3.3 8080 /Users/yourname/recv\n\n   以默认配置开始及维护一个客户端新实例:\n      conc cl"
+
+conc_usage_txt_linux: "开启一个服务器新实例，例如：\n      conc sv 192.168.3.3 8080 /Users/yourname/recv\n\n   以默认配置开始及维护一个客户端新实例:\n      conc cl"
+
+conc_usage_txt_win: "开启一个服务器新实例，例如：\n      conc sv 192.168.3.3 8080 /Users/yourname/recv\n\n   以默认配置开始及维护一个客户端新实例:\n      conc cl"
+
+conc_server_usage: "开启及维持一个服务器新实例。键入conc sv -h检视更多内容"
+conc_server_a_usage: "设置服务器实例监听IP地址"
+conc_server_p_usage: "设置服务器实例监听TCP端口"
+conc_server_w_usage: "设置服务器实例的工作目录，即接收文件存放目录"
+conc_server_b_usage: "设置服务器实例的缓存大小"
+
+conc_client_usage: "开启及维持一个客户端新实例。键入conc cl -h检视更多内容"
+conc_client_desc: "开启及维持一个客户端新实例。开启后将等待监视器（默认TCP-5656端口）及错误/信息收集器联入（默认TCP-9898端口）"
+conc_client_m_usage: "更改监视器联入端口"
+conc_client_e_usage: "更改错误及信息收集器联入端口"
